@@ -28,8 +28,8 @@ jobs:
 
 | Name             | Description                                    | Required | Default        |
 | ---------------- | ---------------------------------------------- | -------- | -------------- |
-| eventType        | The activity type of current event             | true     | -              |
-| goodsFirstIssue  | Add "good first issue" for newcomeres          | false    | false          |
-| labelName        | Name to be added as the triage                 | false    | 'Needs triage' |
 | repoToken        | Github token for the repository                | true     | -              |
+| eventType        | The activity type of current event             | true     | -              |
+| labelName        | Name to be added as the triage                 | false    | 'Needs triage' |
 | secondsUtilLabel | Number of seconds before being added as triage | false    | 60             |
+| goodsFirstIssue  | Add "good first issue" for newcomeres          | false    | false          |
