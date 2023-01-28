@@ -1,0 +1,22 @@
+name: 'Needs triage'
+description: 'Add "Needs triage" label to a new issue'
+author: 'capdiem'
+inputs:
+  repoToken:
+    description: 'Github token for the repository'
+    required: true
+  eventType:
+    description: 'the activity type of current event, should be github.event.action"'
+    required: true
+  labelName:
+    description: 'The label name'
+    default: 'Needs triage'
+  secondsUtilLabel:
+    description: 'The number of seconds before the question is automatically marked "Needs triage"'
+    default: '60'
+  goodFirstIssue:
+    description: 'Add "good first issue" for newcomeres'
+    default: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
