@@ -16,7 +16,7 @@ inputs:
     default: '60'
   goodFirstIssue:
     description: 'Add "good first issue" for newcomeres'
-    default: true
+    default: false
 runs:
   using: 'node16'
   main: 'dist/index.js'
