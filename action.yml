@@ -1,6 +1,9 @@
 name: 'Needs triage'
 description: 'Add "Needs triage" label to a new issue'
 author: 'capdiem'
+branding:
+  icon: 'tag'
+  color: 'purple'
 inputs:
   repoToken:
     description: 'Github token for the repository'
