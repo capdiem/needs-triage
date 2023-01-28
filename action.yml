@@ -15,7 +15,7 @@ inputs:
     description: 'The label name'
     default: 'Needs triage'
   secondsUtilLabel:
-    description: 'The number of seconds before the question is automatically marked "Needs triage"'
+    description: 'The number of seconds before the issue is automatically marked "Needs triage"'
     default: '60'
   goodFirstIssue:
     description: 'Add "good first issue" for newcomeres'
