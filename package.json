@@ -2,7 +2,7 @@
   "name": "needs-triage",
   "version": "1.0.0",
   "private": true,
-  "description": "Automatically add or remove the 'needs triage' label",
+  "description": "Add or remove the 'needs triage' label automatically",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
